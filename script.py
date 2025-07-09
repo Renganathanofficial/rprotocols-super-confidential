@@ -13,7 +13,7 @@ HEADERS = {
 }
 
 def get_user_repos(username):
-    """Fetch public repositories for a GitHub user - Demo by R Protocols"""
+    """Fetch Public repositories for a GitHub user - Demo by R Protocols"""
     url = f"https://api.github.com/users/{username}/repos"
     response = requests.get(url, headers=HEADERS)
 
